@@ -9,11 +9,14 @@ body {
   font-size: 16px;
 }
 
-.container {
+.header > .container,
+.main > .container,
+.footer > .container {
   width: 90%;
   margin: auto;
 }
 
+.clearfix::after,
 .container::after {
   content: '';
   display: table;

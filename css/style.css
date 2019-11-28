@@ -1,13 +1,28 @@
 /* general */
 body {
-  /* empty */
+  margin: 10px auto 10px auto;
 }
 
 /* header */
 /* empty */
 
 /* main */
-/* empty */
+.container {
+  background-color: pink;
+}
+
+[class^="col-"] {
+  position: relative;
+  height: 180px;
+  border: 1px solid black;
+}
+
+[class^="col-"] > span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 /* footer */
 /* empty */

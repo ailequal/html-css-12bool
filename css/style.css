@@ -24,25 +24,18 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.height-auto {
+  height: auto;
+}
+
 .nest {
   padding: 5px;
 }
 
 .nest > [class^="col-"] {
-  height: 160px;
   border: 1px solid white;
   background-color: red;
 }
-
-/* .nest > .col-2 {
-  width: calc(((100% / 12) * 2) - 4%);
-}
-.nest > .col-6 {
-  width: calc(((100% / 12) * 6) - 4%);
-}
-.nest > .col-8 {
-  width: calc(((100% / 12) * 8) - 4%);
-} */
 
 /* footer */
 /* empty */

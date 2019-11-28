@@ -24,5 +24,21 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.nest > [class^="col-"] {
+  height: 150px;
+  margin: 2%;
+  background-color: red;
+}
+
+.nest > .col-2 {
+  width: calc(((100% / 12) * 2) - 4%);
+}
+.nest > .col-6 {
+  width: calc(((100% / 12) * 6) - 4%);
+}
+.nest > .col-8 {
+  width: calc(((100% / 12) * 8) - 4%);
+}
+
 /* footer */
 /* empty */

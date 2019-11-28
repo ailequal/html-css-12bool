@@ -24,13 +24,17 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.nest {
+  padding: 5px;
+}
+
 .nest > [class^="col-"] {
-  height: 150px;
-  margin: 2%;
+  height: 160px;
+  border: 1px solid white;
   background-color: red;
 }
 
-.nest > .col-2 {
+/* .nest > .col-2 {
   width: calc(((100% / 12) * 2) - 4%);
 }
 .nest > .col-6 {
@@ -38,7 +42,7 @@ body {
 }
 .nest > .col-8 {
   width: calc(((100% / 12) * 8) - 4%);
-}
+} */
 
 /* footer */
 /* empty */
